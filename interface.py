@@ -50,7 +50,7 @@ if not filtered_df.empty:
     # Display question and get user input
     question_idx = np.random.choice(filtered_df.index)  # Select a random question index
     question = filtered_df.loc[question_idx, 'Question']
-    user_input = st.text_input("Question :", question)
+    user_input = st.text("Question :", question)
 
     # Add input box for user's answer
     user_answer = st.text_input("Réponse de l'utilisateur :")
