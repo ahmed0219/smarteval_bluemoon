@@ -29,3 +29,18 @@ This project aims to demonstrate how to build a simple question-response evaluat
 
    ```bash
    git clone https://github.com/your-username/question-response-evaluation.git
+2. Navigate to the project directory:
+   ```bash
+   cd question-response-evaluation
+3. Install the required dependencies:
+    ```bash
+    pip install -r requirements.txt
+
+## Usage
+1. Ensure you have the necessary dataset in CSV format (replace 'r_DataQR.csv' in the code with the actual path to your CSV file).
+2. Run the Streamlit app:
+```bash
+  streamlit run app.py
+
+3. Use the sidebar to select the domain, input a question, and provide your answer for evaluation.
+   
